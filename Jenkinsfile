@@ -4,7 +4,7 @@ pipeline {
             stage('Build') {
                 when {
                     expression {
-                        "foo" == "bar"
+                        "foo" == "kar"
                     }
                 }
                 steps {
